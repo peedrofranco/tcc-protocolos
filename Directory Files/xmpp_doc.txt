@@ -1,0 +1,44 @@
+Version information
+###################
+
+There are two ways to obtain the imported version of the :mod:`aioxmpp`
+package:
+
+.. autodata:: __version__
+
+.. data:: version
+
+   Alias of :data:`__version__`.
+
+.. autodata:: version_info
+
+.. _api-aioxmpp-services:
+
+Overview of Services
+####################
+
+.. autosummary::
+    :nosignatures:
+
+    aioxmpp.AdHocClient
+    aioxmpp.AvatarService
+    aioxmpp.BlockingClient
+    aioxmpp.BookmarkClient
+    aioxmpp.CarbonsClient
+    aioxmpp.DiscoClient
+    aioxmpp.DiscoServer
+    aioxmpp.EntityCapsService
+    aioxmpp.MUCClient
+    aioxmpp.PingService
+    aioxmpp.PresenceClient
+    aioxmpp.PresenceServer
+    aioxmpp.PEPClient
+    aioxmpp.RosterClient
+    aioxmpp.VersionServer
+
+Shorthands
+##########
+
+.. function:: make_security_layer
+
+   Alias of :func:`aioxmpp.security_layer.make`.
